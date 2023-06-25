@@ -19,8 +19,7 @@ function App() {
   };
 
   const location = useLocation();
-  const renderParticleJsIfCurrentPage = location.pathname === "/";
-  console.log(location);
+  const renderParticleJsIfCurrentPage = location.pathname === "/portfolio-reactjs/";
   return (
     <div className="App">
       {/* particle JS */}
@@ -40,16 +39,16 @@ function App() {
 
       {/* main page content */}
       <div className="App__main-content-wrapper">
-        <Theme />
+        {/* <Theme /> */}
         <Routes>
           {/* create all routes */}
 
-          <Route index path="/" element={<Home />} />
-          <Route index path="/about" element={<About />} />
-          <Route index path="/resume" element={<Resume />} />
-          <Route index path="/skills" element={<Skills />} />
-          <Route index path="/portfolio" element={<Portfolio />} />
-          <Route index path="/contact" element={<Contact />} />
+          <Route index path="/portfolio-reactjs/" element={<Home />} />
+          <Route index path="/portfolio-reactjs/about" element={<About />} />
+          <Route index path="/portfolio-reactjs/resume" element={<Resume />} />
+          <Route index path="/portfolio-reactjs/skills" element={<Skills />} />
+          <Route index path="/portfolio-reactjs/portfolio" element={<Portfolio />} />
+          <Route index path="/portfolio-reactjs/contact" element={<Contact />} />
         </Routes>
       </div>
     </div>

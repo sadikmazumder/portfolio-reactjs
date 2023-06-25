@@ -12,8 +12,6 @@ const Portfolio = () => {
     setFilterValue(id);
   };
 
-  console.log(filterValue);
-
   const filteredportfolioData =
     filterValue === 1
       ? portFolioData

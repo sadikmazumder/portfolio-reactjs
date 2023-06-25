@@ -1,26 +1,26 @@
 export const data = [
   {
     label: "HOME",
-    to: "/",
+    to: "/portfolio-reactjs/",
   },
   {
     label: "ABOUT ME",
-    to: "/about",
+    to: "/portfolio-reactjs/about",
   },
   {
     label: "SKILLS",
-    to: "/skills",
+    to: "/portfolio-reactjs/skills",
   },
   {
     label: "RESUME",
-    to: "/resume",
+    to: "/portfolio-reactjs/resume",
   },
   {
     label: "PORTFOLIO",
-    to: "/portfolio",
+    to: "/portfolio-reactjs/portfolio",
   },
   {
     label: "CONTACT",
-    to: "/contact",
+    to: "/portfolio-reactjs/contact",
   },
 ];
